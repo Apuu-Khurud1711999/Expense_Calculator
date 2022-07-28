@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=PT+Sans&display=swap');
+*>*{
+  font-family: 'Neucha', cursive;
+  font-family: 'PT Sans', sans-serif;
+  margin:0;
+  padding:0
+}
+
+:root{
+  --color-golden : #f4c471;
+  --color-pink : #ff929b;
+
+}
+.App {
+  text-align: center;
+  padding : 5em
+}
+
+.bg-golden{
+  background-color: var(--color-golden);
+}
+
+.bg-pink{
+  background-color: var(--color-pink);
+}
